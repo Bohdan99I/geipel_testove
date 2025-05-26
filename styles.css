@@ -1,1 +1,181 @@
-/* style */
+/* Основні стилі */
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --background-color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Заголовки */
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Параграфи */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Стилі для секції перфорацій */
+.perforation-types {
+  padding: 2rem 0;
+}
+
+.perforation-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.perforation-item {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.perforation-image-placeholder {
+  flex: 0 0 200px;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.perforation-details {
+  flex: 1;
+}
+
+.specs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.specs-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+/* Переваги */
+.advantages {
+  margin-top: 2rem;
+}
+
+.advantage-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-image-placeholder {
+  flex: 0 0 300px;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.advantage-content {
+  flex: 1;
+}
+
+.advantage-content h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.advantages-list {
+  padding-left: 1.5rem;
+}
+
+.advantages-list li {
+  margin-bottom: 1rem;
+}
+
+/* PDF посилання */
+.pdf-link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 1rem;
+  background-color: #f5f5f5;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #e9e9e9;
+  border-color: #ccc;
+}
+
+.pdf-link:before {
+  content: "📄";
+  margin-right: 8px;
+}
+
+/* Секція якості */
+.quality-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.quality-text {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quality-image-placeholder {
+  flex: 0 0 300px;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.quality-content {
+  flex: 1;
+}

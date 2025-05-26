@@ -179,3 +179,35 @@ p {
 .quality-content {
   flex: 1;
 }
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .quality-section {
+    flex-direction: column;
+  }
+
+  .quality-image-placeholder {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .quality-text {
+    flex-direction: column;
+  }
+
+  .perforation-item {
+    flex-direction: column;
+  }
+
+  .perforation-image-placeholder {
+    width: 100%;
+  }
+
+  .advantage-item {
+    flex-direction: column;
+  }
+
+  .advantage-image-placeholder {
+    width: 100%;
+  }
+}
